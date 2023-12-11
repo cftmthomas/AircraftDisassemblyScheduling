@@ -1,0 +1,2188 @@
+{
+  "id" : "B737NG-600-09-Anon",
+  "name" : "B737NG-600-09-Anon",
+  "version" : "0.4",
+  "maxTime" : 1920,
+  "balanceAF" : 100,
+  "balanceLR" : 50,
+  "resources" : [ {
+    "id" : 0,
+    "name" : "Resource 0",
+    "category" : "Uncertified technician",
+    "unavailable" : [ {
+      "start" : 0,
+      "end" : 160
+    } ],
+    "cost" : 750
+  }, {
+    "id" : 1,
+    "name" : "Resource 1",
+    "category" : "Uncertified technician",
+    "unavailable" : [ {
+      "start" : 96,
+      "end" : 224
+    }, {
+      "start" : 1632,
+      "end" : 1760
+    } ],
+    "cost" : 750
+  }, {
+    "id" : 2,
+    "name" : "Resource 2",
+    "category" : "Uncertified technician",
+    "unavailable" : [ ],
+    "cost" : 750
+  }, {
+    "id" : 3,
+    "name" : "Resource 3",
+    "category" : "Uncertified technician",
+    "unavailable" : [ {
+      "start" : 1376,
+      "end" : 1408
+    } ],
+    "cost" : 750
+  }, {
+    "id" : 4,
+    "name" : "Resource 4",
+    "category" : "Uncertified technician",
+    "unavailable" : [ ],
+    "cost" : 750
+  }, {
+    "id" : 5,
+    "name" : "Resource 5",
+    "category" : "Uncertified technician",
+    "unavailable" : [ ],
+    "cost" : 750
+  }, {
+    "id" : 6,
+    "name" : "Resource 6",
+    "category" : "Uncertified technician",
+    "unavailable" : [ {
+      "start" : 1152,
+      "end" : 1184
+    }, {
+      "start" : 1536,
+      "end" : 1568
+    } ],
+    "cost" : 750
+  }, {
+    "id" : 7,
+    "name" : "Resource 7",
+    "category" : "Uncertified technician",
+    "unavailable" : [ ],
+    "cost" : 750
+  }, {
+    "id" : 8,
+    "name" : "Resource 8",
+    "category" : "Uncertified technician",
+    "unavailable" : [ {
+      "start" : 224,
+      "end" : 288
+    }, {
+      "start" : 544,
+      "end" : 576
+    } ],
+    "cost" : 750
+  }, {
+    "id" : 9,
+    "name" : "Resource 9",
+    "category" : "Uncertified technician",
+    "unavailable" : [ {
+      "start" : 448,
+      "end" : 512
+    }, {
+      "start" : 704,
+      "end" : 832
+    } ],
+    "cost" : 750
+  }, {
+    "id" : 10,
+    "name" : "Resource 10",
+    "category" : "Uncertified technician",
+    "unavailable" : [ ],
+    "cost" : 750
+  }, {
+    "id" : 11,
+    "name" : "Resource 11",
+    "category" : "Certified technician B1",
+    "unavailable" : [ {
+      "start" : 1248,
+      "end" : 1312
+    } ],
+    "cost" : 750
+  }, {
+    "id" : 12,
+    "name" : "Resource 12",
+    "category" : "Certified technician B1",
+    "unavailable" : [ {
+      "start" : 1792,
+      "end" : 1888
+    } ],
+    "cost" : 1000
+  }, {
+    "id" : 13,
+    "name" : "Resource 13",
+    "category" : "Certified technician B1",
+    "unavailable" : [ {
+      "start" : 832,
+      "end" : 864
+    } ],
+    "cost" : 1000
+  }, {
+    "id" : 14,
+    "name" : "Resource 14",
+    "category" : "Certified technician B1",
+    "unavailable" : [ {
+      "start" : 0,
+      "end" : 160
+    }, {
+      "start" : 1056,
+      "end" : 1152
+    } ],
+    "cost" : 1000
+  }, {
+    "id" : 15,
+    "name" : "Resource 15",
+    "category" : "Certified technician B1",
+    "unavailable" : [ {
+      "start" : 416,
+      "end" : 448
+    } ],
+    "cost" : 1000
+  }, {
+    "id" : 16,
+    "name" : "Resource 16",
+    "category" : "Certified technician B1",
+    "unavailable" : [ ],
+    "cost" : 1000
+  }, {
+    "id" : 17,
+    "name" : "Resource 17",
+    "category" : "Certified technician B2",
+    "unavailable" : [ ],
+    "cost" : 1000
+  }, {
+    "id" : 18,
+    "name" : "Resource 18",
+    "category" : "Certified technician B2",
+    "unavailable" : [ {
+      "start" : 576,
+      "end" : 672
+    }, {
+      "start" : 1184,
+      "end" : 1248
+    } ],
+    "cost" : 1000
+  }, {
+    "id" : 19,
+    "name" : "Resource 19",
+    "category" : "Certified technician B1, B2",
+    "unavailable" : [ ],
+    "cost" : 1250
+  }, {
+    "id" : 20,
+    "name" : "Resource 20",
+    "category" : "Certified technician B1, B2",
+    "unavailable" : [ {
+      "start" : 224,
+      "end" : 256
+    }, {
+      "start" : 544,
+      "end" : 576
+    }, {
+      "start" : 832,
+      "end" : 864
+    } ],
+    "cost" : 1250
+  } ],
+  "locations" : [ {
+    "id" : 0,
+    "name" : "Location 0",
+    "zone" : "FWD",
+    "capacity" : 3
+  }, {
+    "id" : 1,
+    "name" : "Location 1",
+    "zone" : "FWD",
+    "capacity" : 2
+  }, {
+    "id" : 2,
+    "name" : "Location 2",
+    "zone" : "FWD",
+    "capacity" : 2
+  }, {
+    "id" : 3,
+    "name" : "Location 3",
+    "zone" : "CENTER",
+    "capacity" : 6
+  }, {
+    "id" : 4,
+    "name" : "Location 4",
+    "zone" : "FWD",
+    "capacity" : 4
+  }, {
+    "id" : 5,
+    "name" : "Location 5",
+    "zone" : "AFT",
+    "capacity" : 3
+  }, {
+    "id" : 6,
+    "name" : "Location 6",
+    "zone" : "FWD",
+    "capacity" : 3
+  }, {
+    "id" : 7,
+    "name" : "Location 7",
+    "zone" : "CENTER",
+    "capacity" : 4
+  }, {
+    "id" : 8,
+    "name" : "Location 8",
+    "zone" : "AFT",
+    "capacity" : 4
+  }, {
+    "id" : 9,
+    "name" : "Location 9",
+    "zone" : "CENTER",
+    "capacity" : 3
+  }, {
+    "id" : 10,
+    "name" : "Location 10",
+    "zone" : "LH",
+    "capacity" : 5
+  }, {
+    "id" : 11,
+    "name" : "Location 11",
+    "zone" : "RH",
+    "capacity" : 5
+  }, {
+    "id" : 12,
+    "name" : "Location 12",
+    "zone" : "CENTER",
+    "capacity" : 10
+  }, {
+    "id" : 13,
+    "name" : "",
+    "zone" : "",
+    "capacity" : 2147483647
+  } ],
+  "operations" : [ {
+    "id" : 0,
+    "name" : "Operation 0",
+    "card" : "0",
+    "duration" : 32,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ ]
+  }, {
+    "id" : 1,
+    "name" : "Operation 1",
+    "card" : "1",
+    "duration" : 1,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 0 ]
+  }, {
+    "id" : 2,
+    "name" : "Operation 2",
+    "card" : "2",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 1, 116 ]
+  }, {
+    "id" : 3,
+    "name" : "Operation 3",
+    "card" : "3",
+    "duration" : 6,
+    "location" : 13,
+    "occupancy" : 3,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 3
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 4,
+    "name" : "Operation 4",
+    "card" : "4",
+    "duration" : 24,
+    "location" : 9,
+    "occupancy" : 3,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 3
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 5,
+    "name" : "Operation 5",
+    "card" : "5",
+    "duration" : 8,
+    "location" : 13,
+    "occupancy" : 3,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 6,
+    "name" : "Operation 6",
+    "card" : "6",
+    "duration" : 8,
+    "location" : 13,
+    "occupancy" : 3,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 7,
+    "name" : "Operation 7",
+    "card" : "7",
+    "duration" : 24,
+    "location" : 13,
+    "occupancy" : 3,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 8,
+    "name" : "Operation 8",
+    "card" : "8",
+    "duration" : 4,
+    "location" : 0,
+    "occupancy" : 2,
+    "mass" : 20,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 9,
+    "name" : "Operation 9",
+    "card" : "9",
+    "duration" : 4,
+    "location" : 11,
+    "occupancy" : 2,
+    "mass" : 2,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 1 ]
+  }, {
+    "id" : 10,
+    "name" : "Operation 10",
+    "card" : "10",
+    "duration" : 2,
+    "location" : 3,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 11,
+    "name" : "Operation 11",
+    "card" : "11",
+    "duration" : 16,
+    "location" : 5,
+    "occupancy" : 2,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 12,
+    "name" : "Operation 12",
+    "card" : "12",
+    "duration" : 4,
+    "location" : 5,
+    "occupancy" : 2,
+    "mass" : 20,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 13,
+    "name" : "Operation 13",
+    "card" : "13",
+    "duration" : 1,
+    "location" : 0,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 14,
+    "name" : "Operation 14",
+    "card" : "14",
+    "duration" : 16,
+    "location" : 0,
+    "occupancy" : 2,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 15,
+    "name" : "Operation 15",
+    "card" : "15",
+    "duration" : 4,
+    "location" : 0,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 16,
+    "name" : "Operation 16",
+    "card" : "16",
+    "duration" : 4,
+    "location" : 8,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 17,
+    "name" : "Operation 17",
+    "card" : "17",
+    "duration" : 6,
+    "location" : 13,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 18,
+    "name" : "Operation 18",
+    "card" : "18",
+    "duration" : 8,
+    "location" : 13,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 19,
+    "name" : "Operation 19",
+    "card" : "19",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 20,
+    "name" : "Operation 20",
+    "card" : "20",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 21,
+    "name" : "Operation 21",
+    "card" : "21",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 22,
+    "name" : "Operation 22",
+    "card" : "22",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 23,
+    "name" : "Operation 23",
+    "card" : "23",
+    "duration" : 12,
+    "location" : 13,
+    "occupancy" : 2,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 24,
+    "name" : "Operation 24",
+    "card" : "24",
+    "duration" : 4,
+    "location" : 7,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 25,
+    "name" : "Operation 25",
+    "card" : "25",
+    "duration" : 16,
+    "location" : 13,
+    "occupancy" : 2,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 26,
+    "name" : "Operation 26",
+    "card" : "26",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 27,
+    "name" : "Operation 27",
+    "card" : "27",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 28,
+    "name" : "Operation 28",
+    "card" : "28",
+    "duration" : 8,
+    "location" : 7,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 29,
+    "name" : "Operation 29",
+    "card" : "29",
+    "duration" : 8,
+    "location" : 9,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 30,
+    "name" : "Operation 30",
+    "card" : "30",
+    "duration" : 2,
+    "location" : 7,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 31,
+    "name" : "Operation 31",
+    "card" : "31",
+    "duration" : 4,
+    "location" : 7,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 32,
+    "name" : "Operation 32",
+    "card" : "32",
+    "duration" : 2,
+    "location" : 3,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 33,
+    "name" : "Operation 33",
+    "card" : "33",
+    "duration" : 6,
+    "location" : 5,
+    "occupancy" : 2,
+    "mass" : 40,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    }, {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 34,
+    "name" : "Operation 34",
+    "card" : "34",
+    "duration" : 4,
+    "location" : 4,
+    "occupancy" : 2,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 35,
+    "name" : "Operation 35",
+    "card" : "35",
+    "duration" : 8,
+    "location" : 0,
+    "occupancy" : 2,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 36,
+    "name" : "Operation 36",
+    "card" : "36",
+    "duration" : 12,
+    "location" : 1,
+    "occupancy" : 2,
+    "mass" : 2,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 2
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 37,
+    "name" : "Operation 37",
+    "card" : "37",
+    "duration" : 1,
+    "location" : 0,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 38,
+    "name" : "Operation 38",
+    "card" : "38",
+    "duration" : 1,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 39,
+    "name" : "Operation 39",
+    "card" : "39",
+    "duration" : 1,
+    "location" : 5,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 40,
+    "name" : "Operation 40",
+    "card" : "40",
+    "duration" : 1,
+    "location" : 7,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 41,
+    "name" : "Operation 41",
+    "card" : "41",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 42,
+    "name" : "Operation 42",
+    "card" : "42",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 43,
+    "name" : "Operation 43",
+    "card" : "43",
+    "duration" : 1,
+    "location" : 8,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 44,
+    "name" : "Operation 44",
+    "card" : "44",
+    "duration" : 1,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 45,
+    "name" : "Operation 45",
+    "card" : "45",
+    "duration" : 1,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 46,
+    "name" : "Operation 46",
+    "card" : "46",
+    "duration" : 1,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 2,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 47,
+    "name" : "Operation 47",
+    "card" : "47",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 48,
+    "name" : "Operation 48",
+    "card" : "48",
+    "duration" : 1,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 49,
+    "name" : "Operation 49",
+    "card" : "49",
+    "duration" : 1,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 50,
+    "name" : "Operation 50",
+    "card" : "50",
+    "duration" : 1,
+    "location" : 5,
+    "occupancy" : 1,
+    "mass" : 2,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 51,
+    "name" : "Operation 51",
+    "card" : "51",
+    "duration" : 1,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 52,
+    "name" : "Operation 52",
+    "card" : "52",
+    "duration" : 2,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 53,
+    "name" : "Operation 53",
+    "card" : "53",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 54,
+    "name" : "Operation 54",
+    "card" : "54",
+    "duration" : 4,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 55,
+    "name" : "Operation 55",
+    "card" : "55",
+    "duration" : 4,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 56,
+    "name" : "Operation 56",
+    "card" : "56",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 57,
+    "name" : "Operation 57",
+    "card" : "57",
+    "duration" : 8,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 58,
+    "name" : "Operation 58",
+    "card" : "58",
+    "duration" : 8,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 59,
+    "name" : "Operation 59",
+    "card" : "59",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 2,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 60,
+    "name" : "Operation 60",
+    "card" : "60",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 61,
+    "name" : "Operation 61",
+    "card" : "61",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 62,
+    "name" : "Operation 62",
+    "card" : "62",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 63,
+    "name" : "Operation 63",
+    "card" : "63",
+    "duration" : 1,
+    "location" : 2,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 64,
+    "name" : "Operation 64",
+    "card" : "64",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 65,
+    "name" : "Operation 65",
+    "card" : "65",
+    "duration" : 1,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 66,
+    "name" : "Operation 66",
+    "card" : "66",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 67,
+    "name" : "Operation 67",
+    "card" : "67",
+    "duration" : 2,
+    "location" : 7,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 68,
+    "name" : "Operation 68",
+    "card" : "68",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 69,
+    "name" : "Operation 69",
+    "card" : "69",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 70,
+    "name" : "Operation 70",
+    "card" : "70",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 71,
+    "name" : "Operation 71",
+    "card" : "71",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 72,
+    "name" : "Operation 72",
+    "card" : "72",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 73,
+    "name" : "Operation 73",
+    "card" : "73",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 74,
+    "name" : "Operation 74",
+    "card" : "74",
+    "duration" : 2,
+    "location" : 2,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 75,
+    "name" : "Operation 75",
+    "card" : "75",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 76,
+    "name" : "Operation 76",
+    "card" : "76",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 77,
+    "name" : "Operation 77",
+    "card" : "77",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 78,
+    "name" : "Operation 78",
+    "card" : "78",
+    "duration" : 2,
+    "location" : 12,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 79,
+    "name" : "Operation 79",
+    "card" : "79",
+    "duration" : 4,
+    "location" : 5,
+    "occupancy" : 1,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 80,
+    "name" : "Operation 80",
+    "card" : "80",
+    "duration" : 1,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 81,
+    "name" : "Operation 81",
+    "card" : "81",
+    "duration" : 1,
+    "location" : 8,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 82,
+    "name" : "Operation 82",
+    "card" : "82",
+    "duration" : 1,
+    "location" : 8,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 83,
+    "name" : "Operation 83",
+    "card" : "83",
+    "duration" : 1,
+    "location" : 8,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 84,
+    "name" : "Operation 84",
+    "card" : "84",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 85,
+    "name" : "Operation 85",
+    "card" : "85",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 86,
+    "name" : "Operation 86",
+    "card" : "86",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 87,
+    "name" : "Operation 87",
+    "card" : "87",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 88,
+    "name" : "Operation 88",
+    "card" : "88",
+    "duration" : 8,
+    "location" : 2,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 89,
+    "name" : "Operation 89",
+    "card" : "89",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 90,
+    "name" : "Operation 90",
+    "card" : "90",
+    "duration" : 2,
+    "location" : 6,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 91,
+    "name" : "Operation 91",
+    "card" : "91",
+    "duration" : 4,
+    "location" : 0,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 92,
+    "name" : "Operation 92",
+    "card" : "92",
+    "duration" : 2,
+    "location" : 9,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 93,
+    "name" : "Operation 93",
+    "card" : "93",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 94,
+    "name" : "Operation 94",
+    "card" : "94",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 95,
+    "name" : "Operation 95",
+    "card" : "95",
+    "duration" : 6,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 96,
+    "name" : "Operation 96",
+    "card" : "96",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 97,
+    "name" : "Operation 97",
+    "card" : "97",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 98,
+    "name" : "Operation 98",
+    "card" : "98",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 99,
+    "name" : "Operation 99",
+    "card" : "99",
+    "duration" : 2,
+    "location" : 8,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 100,
+    "name" : "Operation 100",
+    "card" : "100",
+    "duration" : 2,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 101,
+    "name" : "Operation 101",
+    "card" : "101",
+    "duration" : 4,
+    "location" : 12,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 102,
+    "name" : "Operation 102",
+    "card" : "102",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 103,
+    "name" : "Operation 103",
+    "card" : "103",
+    "duration" : 1,
+    "location" : 2,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 104,
+    "name" : "Operation 104",
+    "card" : "104",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 105,
+    "name" : "Operation 105",
+    "card" : "105",
+    "duration" : 2,
+    "location" : 12,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 106,
+    "name" : "Operation 106",
+    "card" : "106",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 107,
+    "name" : "Operation 107",
+    "card" : "107",
+    "duration" : 2,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 108,
+    "name" : "Operation 108",
+    "card" : "108",
+    "duration" : 1,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 109,
+    "name" : "Operation 109",
+    "card" : "109",
+    "duration" : 3,
+    "location" : 12,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 110,
+    "name" : "Operation 110",
+    "card" : "110",
+    "duration" : 2,
+    "location" : 12,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 111,
+    "name" : "Operation 111",
+    "card" : "111",
+    "duration" : 1,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 112,
+    "name" : "Operation 112",
+    "card" : "112",
+    "duration" : 2,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 113,
+    "name" : "Operation 113",
+    "card" : "113",
+    "duration" : 2,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 114,
+    "name" : "Operation 114",
+    "card" : "114",
+    "duration" : 2,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 115,
+    "name" : "Operation 115",
+    "card" : "115",
+    "duration" : 1,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 116,
+    "name" : "Operation 116",
+    "card" : "116",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 1 ]
+  }, {
+    "id" : 117,
+    "name" : "Operation 117",
+    "card" : "117",
+    "duration" : 2,
+    "location" : 7,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 118,
+    "name" : "Operation 118",
+    "card" : "118",
+    "duration" : 2,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 119,
+    "name" : "Operation 119",
+    "card" : "119",
+    "duration" : 2,
+    "location" : 5,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 120,
+    "name" : "Operation 120",
+    "card" : "120",
+    "duration" : 2,
+    "location" : 5,
+    "occupancy" : 1,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 121,
+    "name" : "Operation 121",
+    "card" : "121",
+    "duration" : 2,
+    "location" : 5,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 122,
+    "name" : "Operation 122",
+    "card" : "122",
+    "duration" : 1,
+    "location" : 8,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 123,
+    "name" : "Operation 123",
+    "card" : "123",
+    "duration" : 2,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 124,
+    "name" : "Operation 124",
+    "card" : "124",
+    "duration" : 4,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 125,
+    "name" : "Operation 125",
+    "card" : "125",
+    "duration" : 1,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 126,
+    "name" : "Operation 126",
+    "card" : "126",
+    "duration" : 2,
+    "location" : 12,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 127,
+    "name" : "Operation 127",
+    "card" : "127",
+    "duration" : 2,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 128,
+    "name" : "Operation 128",
+    "card" : "128",
+    "duration" : 2,
+    "location" : 8,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 129,
+    "name" : "Operation 129",
+    "card" : "129",
+    "duration" : 1,
+    "location" : 5,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 130,
+    "name" : "Operation 130",
+    "card" : "130",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 131,
+    "name" : "Operation 131",
+    "card" : "131",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 132,
+    "name" : "Operation 132",
+    "card" : "132",
+    "duration" : 2,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 2,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 133,
+    "name" : "Operation 133",
+    "card" : "133",
+    "duration" : 2,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 134,
+    "name" : "Operation 134",
+    "card" : "134",
+    "duration" : 2,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 10,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 135,
+    "name" : "Operation 135",
+    "card" : "135",
+    "duration" : 4,
+    "location" : 4,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 136,
+    "name" : "Operation 136",
+    "card" : "136",
+    "duration" : 32,
+    "location" : 3,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 137,
+    "name" : "Operation 137",
+    "card" : "137",
+    "duration" : 4,
+    "location" : 8,
+    "occupancy" : 1,
+    "mass" : 5,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 138,
+    "name" : "Operation 138",
+    "card" : "138",
+    "duration" : 8,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 2,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 139,
+    "name" : "Operation 139",
+    "card" : "139",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 140,
+    "name" : "Operation 140",
+    "card" : "140",
+    "duration" : 2,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Certified technician B1", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 141,
+    "name" : "Operation 141",
+    "card" : "141",
+    "duration" : 4,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 142,
+    "name" : "Operation 142",
+    "card" : "142",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 143,
+    "name" : "Operation 143",
+    "card" : "143",
+    "duration" : 4,
+    "location" : 13,
+    "occupancy" : 1,
+    "mass" : 1,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  }, {
+    "id" : 144,
+    "name" : "Operation 144",
+    "card" : "144",
+    "duration" : 1,
+    "location" : 1,
+    "occupancy" : 1,
+    "mass" : 0,
+    "resources" : [ {
+      "category" : [ "Uncertified technician", "Certified technician B1", "Certified technician B2", "Certified technician B1, B2" ],
+      "quantity" : 1
+    } ],
+    "precedences" : [ 9, 2, 1, 116 ]
+  } ]
+}

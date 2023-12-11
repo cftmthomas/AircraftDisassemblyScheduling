@@ -1,0 +1,186 @@
+{
+  "instance" : "B737NG-600-40-Anon",
+  "makespanBound" : 572,
+  "costBound" : 4061500,
+  "log" : [ {
+    "time" : 3.655804463,
+    "makespan" : 736,
+    "cost" : 4710500,
+    "optimal" : false
+  }, {
+    "time" : 9.300135073,
+    "makespan" : 735,
+    "cost" : 4604000,
+    "optimal" : false
+  }, {
+    "time" : 14.669072823,
+    "makespan" : 701,
+    "cost" : 4718250,
+    "optimal" : false
+  }, {
+    "time" : 16.749080679,
+    "makespan" : 697,
+    "cost" : 4734500,
+    "optimal" : false
+  }, {
+    "time" : 21.258541489,
+    "makespan" : 696,
+    "cost" : 4785500,
+    "optimal" : false
+  }, {
+    "time" : 24.277376131,
+    "makespan" : 695,
+    "cost" : 4760000,
+    "optimal" : false
+  }, {
+    "time" : 30.267329969,
+    "makespan" : 692,
+    "cost" : 4732000,
+    "optimal" : false
+  }, {
+    "time" : 32.298534458,
+    "makespan" : 691,
+    "cost" : 4768250,
+    "optimal" : false
+  }, {
+    "time" : 63.022803885,
+    "makespan" : 690,
+    "cost" : 4703500,
+    "optimal" : false
+  }, {
+    "time" : 2402.830863149,
+    "makespan" : 690,
+    "cost" : 4703500,
+    "optimal" : false
+  }, {
+    "time" : 2431.27971536,
+    "makespan" : 690,
+    "cost" : 4699500,
+    "optimal" : false
+  }, {
+    "time" : 2436.370464344,
+    "makespan" : 690,
+    "cost" : 4697500,
+    "optimal" : false
+  }, {
+    "time" : 2437.839551485,
+    "makespan" : 690,
+    "cost" : 4695500,
+    "optimal" : false
+  }, {
+    "time" : 2486.362617776,
+    "makespan" : 690,
+    "cost" : 4691500,
+    "optimal" : false
+  }, {
+    "time" : 2522.627762578,
+    "makespan" : 690,
+    "cost" : 4689500,
+    "optimal" : false
+  }, {
+    "time" : 2553.848964733,
+    "makespan" : 690,
+    "cost" : 4534000,
+    "optimal" : false
+  }, {
+    "time" : 2657.221034903,
+    "makespan" : 690,
+    "cost" : 4533750,
+    "optimal" : false
+  }, {
+    "time" : 2669.285710296,
+    "makespan" : 690,
+    "cost" : 4526000,
+    "optimal" : false
+  }, {
+    "time" : 2691.393549443,
+    "makespan" : 690,
+    "cost" : 4512000,
+    "optimal" : false
+  }, {
+    "time" : 2754.728613464,
+    "makespan" : 690,
+    "cost" : 4511750,
+    "optimal" : false
+  }, {
+    "time" : 2822.049310949,
+    "makespan" : 690,
+    "cost" : 4508250,
+    "optimal" : false
+  }, {
+    "time" : 2822.361006811,
+    "makespan" : 690,
+    "cost" : 4506750,
+    "optimal" : false
+  }, {
+    "time" : 2822.766733918,
+    "makespan" : 690,
+    "cost" : 4505000,
+    "optimal" : false
+  }, {
+    "time" : 2825.801667903,
+    "makespan" : 690,
+    "cost" : 4503750,
+    "optimal" : false
+  }, {
+    "time" : 2828.265695385,
+    "makespan" : 690,
+    "cost" : 4501750,
+    "optimal" : false
+  }, {
+    "time" : 2829.233118559,
+    "makespan" : 690,
+    "cost" : 4500250,
+    "optimal" : false
+  }, {
+    "time" : 2830.538103253,
+    "makespan" : 690,
+    "cost" : 4496750,
+    "optimal" : false
+  }, {
+    "time" : 2832.201703662,
+    "makespan" : 690,
+    "cost" : 4469250,
+    "optimal" : false
+  }, {
+    "time" : 2838.195168104,
+    "makespan" : 690,
+    "cost" : 4467750,
+    "optimal" : false
+  }, {
+    "time" : 2841.384274855,
+    "makespan" : 690,
+    "cost" : 4467250,
+    "optimal" : false
+  }, {
+    "time" : 2842.499450665,
+    "makespan" : 690,
+    "cost" : 4463250,
+    "optimal" : false
+  }, {
+    "time" : 2861.968891579,
+    "makespan" : 690,
+    "cost" : 4462750,
+    "optimal" : false
+  }, {
+    "time" : 2863.980652894,
+    "makespan" : 690,
+    "cost" : 4456750,
+    "optimal" : false
+  }, {
+    "time" : 2866.894567189,
+    "makespan" : 690,
+    "cost" : 4455250,
+    "optimal" : false
+  }, {
+    "time" : 2871.378967897,
+    "makespan" : 690,
+    "cost" : 4454750,
+    "optimal" : false
+  }, {
+    "time" : 3007.572562106,
+    "makespan" : 690,
+    "cost" : 4453750,
+    "optimal" : false
+  } ]
+}

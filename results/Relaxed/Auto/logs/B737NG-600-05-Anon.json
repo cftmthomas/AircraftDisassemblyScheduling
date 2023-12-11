@@ -1,0 +1,141 @@
+{
+  "instance" : "B737NG-600-05-Anon",
+  "makespanBound" : 55,
+  "costBound" : 394750,
+  "log" : [ {
+    "time" : 0.42407093,
+    "makespan" : 70,
+    "cost" : 463750,
+    "optimal" : false
+  }, {
+    "time" : 0.428537602,
+    "makespan" : 67,
+    "cost" : 452250,
+    "optimal" : false
+  }, {
+    "time" : 0.431084951,
+    "makespan" : 65,
+    "cost" : 461250,
+    "optimal" : false
+  }, {
+    "time" : 0.433131703,
+    "makespan" : 64,
+    "cost" : 463500,
+    "optimal" : false
+  }, {
+    "time" : 0.434933925,
+    "makespan" : 63,
+    "cost" : 466250,
+    "optimal" : false
+  }, {
+    "time" : 0.437183114,
+    "makespan" : 62,
+    "cost" : 459250,
+    "optimal" : false
+  }, {
+    "time" : 0.438971105,
+    "makespan" : 61,
+    "cost" : 466750,
+    "optimal" : false
+  }, {
+    "time" : 0.441747154,
+    "makespan" : 57,
+    "cost" : 466250,
+    "optimal" : false
+  }, {
+    "time" : 0.444059595,
+    "makespan" : 56,
+    "cost" : 464500,
+    "optimal" : false
+  }, {
+    "time" : 0.446694884,
+    "makespan" : 55,
+    "cost" : 454750,
+    "optimal" : true
+  }, {
+    "time" : 0.981320118,
+    "makespan" : 55,
+    "cost" : 454750,
+    "optimal" : false
+  }, {
+    "time" : 1.325776557,
+    "makespan" : 55,
+    "cost" : 454000,
+    "optimal" : false
+  }, {
+    "time" : 1.338033338,
+    "makespan" : 55,
+    "cost" : 447250,
+    "optimal" : false
+  }, {
+    "time" : 1.343012508,
+    "makespan" : 55,
+    "cost" : 446750,
+    "optimal" : false
+  }, {
+    "time" : 1.349673766,
+    "makespan" : 55,
+    "cost" : 444750,
+    "optimal" : false
+  }, {
+    "time" : 2.370083968,
+    "makespan" : 55,
+    "cost" : 436750,
+    "optimal" : false
+  }, {
+    "time" : 2.632440065,
+    "makespan" : 55,
+    "cost" : 423750,
+    "optimal" : false
+  }, {
+    "time" : 3.675396603,
+    "makespan" : 55,
+    "cost" : 419500,
+    "optimal" : false
+  }, {
+    "time" : 6.135810548,
+    "makespan" : 55,
+    "cost" : 419000,
+    "optimal" : false
+  }, {
+    "time" : 6.139341708,
+    "makespan" : 55,
+    "cost" : 418750,
+    "optimal" : false
+  }, {
+    "time" : 6.142977523,
+    "makespan" : 55,
+    "cost" : 418250,
+    "optimal" : false
+  }, {
+    "time" : 6.557435884,
+    "makespan" : 55,
+    "cost" : 417500,
+    "optimal" : false
+  }, {
+    "time" : 6.829663633,
+    "makespan" : 55,
+    "cost" : 417250,
+    "optimal" : false
+  }, {
+    "time" : 7.454000542,
+    "makespan" : 55,
+    "cost" : 416250,
+    "optimal" : false
+  }, {
+    "time" : 7.71476182,
+    "makespan" : 55,
+    "cost" : 414250,
+    "optimal" : false
+  }, {
+    "time" : 10.060095747,
+    "makespan" : 55,
+    "cost" : 413250,
+    "optimal" : false
+  }, {
+    "time" : 13.69474392,
+    "makespan" : 55,
+    "cost" : 412250,
+    "optimal" : false
+  } ]
+}

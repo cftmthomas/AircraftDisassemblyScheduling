@@ -1,0 +1,96 @@
+{
+  "instance" : "B737NG-600-Full-Anon",
+  "makespanBound" : 943,
+  "costBound" : 9206000,
+  "log" : [ {
+    "time" : 178.820479788,
+    "makespan" : 1127,
+    "cost" : 10778500,
+    "optimal" : false
+  }, {
+    "time" : 213.336383954,
+    "makespan" : 1120,
+    "cost" : 10784000,
+    "optimal" : false
+  }, {
+    "time" : 318.466746105,
+    "makespan" : 1106,
+    "cost" : 10955500,
+    "optimal" : false
+  }, {
+    "time" : 398.757730849,
+    "makespan" : 1104,
+    "cost" : 10947250,
+    "optimal" : false
+  }, {
+    "time" : 401.732169824,
+    "makespan" : 1101,
+    "cost" : 10754750,
+    "optimal" : false
+  }, {
+    "time" : 544.412641897,
+    "makespan" : 1100,
+    "cost" : 10755000,
+    "optimal" : false
+  }, {
+    "time" : 2317.620102826,
+    "makespan" : 1099,
+    "cost" : 10673750,
+    "optimal" : false
+  }, {
+    "time" : 2403.985737539,
+    "makespan" : 1099,
+    "cost" : 10673750,
+    "optimal" : false
+  }, {
+    "time" : 2491.987007761,
+    "makespan" : 1099,
+    "cost" : 10671750,
+    "optimal" : false
+  }, {
+    "time" : 2496.460850418,
+    "makespan" : 1099,
+    "cost" : 10670750,
+    "optimal" : false
+  }, {
+    "time" : 2522.194610924,
+    "makespan" : 1099,
+    "cost" : 10669750,
+    "optimal" : false
+  }, {
+    "time" : 2624.659341603,
+    "makespan" : 1099,
+    "cost" : 10666750,
+    "optimal" : false
+  }, {
+    "time" : 2637.633247492,
+    "makespan" : 1099,
+    "cost" : 10663750,
+    "optimal" : false
+  }, {
+    "time" : 2748.425606286,
+    "makespan" : 1099,
+    "cost" : 10609750,
+    "optimal" : false
+  }, {
+    "time" : 3223.498886751,
+    "makespan" : 1099,
+    "cost" : 10609500,
+    "optimal" : false
+  }, {
+    "time" : 3553.911799948,
+    "makespan" : 1099,
+    "cost" : 10607000,
+    "optimal" : false
+  }, {
+    "time" : 3578.386242958,
+    "makespan" : 1099,
+    "cost" : 10606500,
+    "optimal" : false
+  }, {
+    "time" : 3593.686896389,
+    "makespan" : 1099,
+    "cost" : 10604000,
+    "optimal" : false
+  } ]
+}

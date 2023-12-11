@@ -1,0 +1,191 @@
+{
+  "instance" : "B737NG-600-90-Anon",
+  "makespanBound" : 909,
+  "costBound" : 8483750,
+  "log" : [ {
+    "time" : 97.571252967,
+    "makespan" : 1066,
+    "cost" : 9915500,
+    "optimal" : false
+  }, {
+    "time" : 215.722694059,
+    "makespan" : 1059,
+    "cost" : 9887500,
+    "optimal" : false
+  }, {
+    "time" : 217.872388117,
+    "makespan" : 1057,
+    "cost" : 9891750,
+    "optimal" : false
+  }, {
+    "time" : 504.108488628,
+    "makespan" : 1056,
+    "cost" : 9734750,
+    "optimal" : false
+  }, {
+    "time" : 518.154291066,
+    "makespan" : 1055,
+    "cost" : 9733750,
+    "optimal" : false
+  }, {
+    "time" : 605.538188703,
+    "makespan" : 1054,
+    "cost" : 9884750,
+    "optimal" : false
+  }, {
+    "time" : 739.671196624,
+    "makespan" : 1053,
+    "cost" : 9883750,
+    "optimal" : false
+  }, {
+    "time" : 2404.260960572,
+    "makespan" : 1053,
+    "cost" : 9883750,
+    "optimal" : false
+  }, {
+    "time" : 2467.096233437,
+    "makespan" : 1053,
+    "cost" : 9881750,
+    "optimal" : false
+  }, {
+    "time" : 2531.791786329,
+    "makespan" : 1053,
+    "cost" : 9877250,
+    "optimal" : false
+  }, {
+    "time" : 2568.737349231,
+    "makespan" : 1053,
+    "cost" : 9755750,
+    "optimal" : false
+  }, {
+    "time" : 2587.253904366,
+    "makespan" : 1053,
+    "cost" : 9754750,
+    "optimal" : false
+  }, {
+    "time" : 2671.38611187,
+    "makespan" : 1053,
+    "cost" : 9750750,
+    "optimal" : false
+  }, {
+    "time" : 2688.960280784,
+    "makespan" : 1053,
+    "cost" : 9749750,
+    "optimal" : false
+  }, {
+    "time" : 2910.357908341,
+    "makespan" : 1053,
+    "cost" : 9743750,
+    "optimal" : false
+  }, {
+    "time" : 3183.887822733,
+    "makespan" : 1053,
+    "cost" : 9739500,
+    "optimal" : false
+  }, {
+    "time" : 3184.797405844,
+    "makespan" : 1053,
+    "cost" : 9732500,
+    "optimal" : false
+  }, {
+    "time" : 3201.629935017,
+    "makespan" : 1053,
+    "cost" : 9726750,
+    "optimal" : false
+  }, {
+    "time" : 3252.120965145,
+    "makespan" : 1053,
+    "cost" : 9719000,
+    "optimal" : false
+  }, {
+    "time" : 3272.592768319,
+    "makespan" : 1053,
+    "cost" : 9715250,
+    "optimal" : false
+  }, {
+    "time" : 3315.147194949,
+    "makespan" : 1053,
+    "cost" : 9712000,
+    "optimal" : false
+  }, {
+    "time" : 3316.905730231,
+    "makespan" : 1053,
+    "cost" : 9709500,
+    "optimal" : false
+  }, {
+    "time" : 3323.697664809,
+    "makespan" : 1053,
+    "cost" : 9707500,
+    "optimal" : false
+  }, {
+    "time" : 3391.488664221,
+    "makespan" : 1053,
+    "cost" : 9696750,
+    "optimal" : false
+  }, {
+    "time" : 3434.734331122,
+    "makespan" : 1053,
+    "cost" : 9671000,
+    "optimal" : false
+  }, {
+    "time" : 3455.159176657,
+    "makespan" : 1053,
+    "cost" : 9669250,
+    "optimal" : false
+  }, {
+    "time" : 3455.267627791,
+    "makespan" : 1053,
+    "cost" : 9668000,
+    "optimal" : false
+  }, {
+    "time" : 3458.635243664,
+    "makespan" : 1053,
+    "cost" : 9665500,
+    "optimal" : false
+  }, {
+    "time" : 3459.133823473,
+    "makespan" : 1053,
+    "cost" : 9664250,
+    "optimal" : false
+  }, {
+    "time" : 3462.296488406,
+    "makespan" : 1053,
+    "cost" : 9663250,
+    "optimal" : false
+  }, {
+    "time" : 3466.517003785,
+    "makespan" : 1053,
+    "cost" : 9662250,
+    "optimal" : false
+  }, {
+    "time" : 3473.292239157,
+    "makespan" : 1053,
+    "cost" : 9656250,
+    "optimal" : false
+  }, {
+    "time" : 3495.470003281,
+    "makespan" : 1053,
+    "cost" : 9652000,
+    "optimal" : false
+  }, {
+    "time" : 3501.610210704,
+    "makespan" : 1053,
+    "cost" : 9650000,
+    "optimal" : false
+  }, {
+    "time" : 3517.728328654,
+    "makespan" : 1053,
+    "cost" : 9649500,
+    "optimal" : false
+  }, {
+    "time" : 3518.934454569,
+    "makespan" : 1053,
+    "cost" : 9648000,
+    "optimal" : false
+  }, {
+    "time" : 3521.007235526,
+    "makespan" : 1053,
+    "cost" : 9647500,
+    "optimal" : false
+  } ]
+}

@@ -1,0 +1,26 @@
+.status-red {
+    -fx-background-color:rgba(128,0,0,0.5);
+    -fx-stroke-width: 2;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+.status-green {
+    -fx-background-color:rgba(0,128,0,0.7);
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+.status-blue {
+    -fx-background-color:rgba(0,0,128,0.7);
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+.status-gray {
+    -fx-background-color:rgba(128,128,128,0.7);
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+.dashed-line {
+    -fx-stroke-width: 2;
+    -fx-stroke:rgba(128,0,0,0.5);
+    /* -fx-stroke-dash-array: 8; */
+}
