@@ -9,7 +9,7 @@ import org.adsp.tools.json.JsonReader;
 
 public class Launcher {
     public static void main(String[] args){
-        //Arguments: instance/sol model -st -sil -t [time limit] -t2 [2nd time limit] -f [fail limit] -s [search] -n [n workers] -out [outputPath]
+        //Arguments: instance/sol model [-st -sil -t <time limit> -t2 <2nd time limit> -f <fail limit> -s <search> -n <n workers> -out <output path>]
         //Reading parameters:
         if(args.length < 2){
             System.out.println("No instance file path or model provided!");

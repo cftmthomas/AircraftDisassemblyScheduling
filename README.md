@@ -83,3 +83,63 @@ For all folders, the results are separated into two kind of files: `Solutions` a
 		- `optimal` which is a boolean indicating if the solver has proven the solution optimal.
 
 In addition to the solution and log files for each instances, both results folders contain a series of csv files that contain general statistics computed based on the solution and log files.
+
+## How to run
+
+Before compiling or running the code, you must install [CP Optimizer 22.1.1](https://www.ibm.com/docs/en/icos/22.1.1?topic=cp-optimizer) or a subsequent version. Follow the installation instructions bundled with the download to set up correctly the program on your machine. Do not forget to set up the correct environmental variables.
+
+The project uses [maven](https://maven.apache.org/) to manage the libraries needed for the model. Make sure that maven is installed on your machine and that your local maven repository is correctly configured into the `settings.xml` file which should be located in `USER_HOME/.m2`. This should look like this:
+
+```xml
+<localRepository>
+	path/to/your/local/repository
+</localRepository>
+```
+
+By default the local repository is `${user.home}/.m2/repository`. If needed, you can find more information on repositories and how to configure them in maven [here](https://maven.apache.org/guides/introduction/introduction-to-repositories.html) and [here](https://maven.apache.org/configure.html).
+
+In order to make the CP Optimizer libraries available for maven, you need to import the CP Optimizer jar into your local maven repository. To do so, use the [maven install plugin](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html) to import the CP Optimizer jar which is situated at `CPLEX_INSTAll_DIRECTORY/cpoptimizer/lib/ILOG.CP.jar` by running the following command:
+
+```bash
+mvn install:install-file -Dfile=<path-to-jar> -DgroupId=cplex -DartifactId=cpoptimizer -Dversion=22.1.1 -Dpackaging=jar
+```
+
+You may change the groupId, artifacId or version values but in this case, you will need to edit the `pom.xml` file of the project to point to the correct artifact.
+
+Once these steps are done, you can compile the project and run the model either in your favourite IDE or via maven by using the commands `mvn compile` and `mvn exec:java Dexec.args="arguments to the program"`. Depending on your system or if you are using an IDE, you may have to configure environment variables, add elements to the path or pass additional arguments to make the CP Optimizer library properly recognized at runtime. Refer to the CP Optimizer documentation or your IDE documentation to do so.
+
+There are two classes that can be used to launch the model. The `Launcher.java` class simply launches to model while the `visu/runnable/Visu.java` class launches the model then displays a visualisation of the last found solution at the end of the search. Both classes accept the same format of arguments:
+
+```bash
+<path/to/instance> <model> [options]
+```
+
+Possible options are:
+
+- `-st` a flag that indicates that a solution file must be used as starting point for the search. In this case, the `<path/to/instance>` argument must point to a solution file instead of an instance file.
+- `-t <time-limit>` sets the time limit (in seconds) of the search (first phase in case of lexicographical search).
+- `-t2 <time-limit>` is used to set a time limit for the second phase of a lexicographical search.
+- `-f <fail-limit>` sets the fail limit of the search.
+- `-s <search>` allows to set a specific kind of search for the model. Accepted values are:
+
+	- **LEX-DF** lexicographical search with a depth first search.
+	- **LEX-FD** lexicographical search with a failure directed search.
+	- **ILEX-AUTO** inverted lexicographical search (on cost objective first) with cp optimizer's auto search.
+	- **ILEX-DF** inverted lexicographical search with a depth first search.
+	- **ILEX-FD** inverted lexicographical search with a failure directed search.
+	- **MK-AUTO** search on the makespan only with CP Optimizer's auto search.
+	- **MK-DF** search on the makespan only with depth first search.
+	- **MK-FD** search on the makespan only with a failure directed search.
+	- **CST-AUTO** search on the cost only with CP Optimizer's auto search.
+	- **CST-DF** search on the cost only with a depth first search.
+	- **CST-FD** search on the cost only with a failure directed search.
+	
+	The search set by default is a lexicographical search with CP Optimizer's auto search.
+- `-n <n-workers>` sets the number of workers that are used in parralel for the CP Optimizer search. The default value is 1.
+- `-out <output/path>` sets the output path which correponds to the folder where the log and solution files will be written at the end of the search.
+
+The `<model>` argument is mandatory and indicates which model will be run. Its possible values are:
+
+- **CPOOptInterModel** the CP Optimizer model.
+- **CPOOptInterModelRelax** the relaxed model without the balance, capacity and certification constraints.
+- **DisplaySol** (for the Visu class only) displays the visualisation for a given solution file. In this case the `<path/to/instance>` argument must point to a solution file instead of an instance file.
